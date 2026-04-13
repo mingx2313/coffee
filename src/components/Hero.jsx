@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <div className="clip-text mt-4">
         <p className="reveal-up font-sans text-lg md:text-xl text-brand-dark/80 tracking-widest uppercase font-light">
-          咖啡與輕食的極致交響
+          Coffee and Cuisine in Harmony
         </p>
       </div>
     </section>

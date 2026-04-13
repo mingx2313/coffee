@@ -6,25 +6,25 @@ gsap.registerPlugin(ScrollTrigger);
 
 const artisans = [
   {
-    name: 'Chen Wei-Lin',
-    nameTw: '陳威霖',
-    title: 'Head Barista · 首席咖啡師',
+    name: 'Marcus Chen',
+    nameMy: 'Head Barista',
+    title: 'Head Barista',
     quote:
-      '「一杯好咖啡不是沖出來的，是感受出來的。手的溫度、水的節奏、豆子的呼吸——這三者交融的瞬間，就是藝術。」',
+      '"Great coffee is not made, it is felt. The warmth of the hand, the rhythm of water, the breath of the bean—when these three merge, it becomes art."',
     detail:
-      '曾獲台灣咖啡師大賽冠軍，師承日本京都堀口珈琲。擁有超過十年的精品咖啡經驗，專精於北歐式手沖與義式壓力萃取。',
+      'Award-winning barista trained in Sydney and Melbourne. Over 12 years of specialty coffee experience, specializing in Nordic-style pour-over and espresso extraction. Based in Kuala Lumpur for the past 5 years.',
     img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop',
     align: 'left',
     accent: '#D4A373',
   },
   {
-    name: 'Lin Hsiao-Tung',
-    nameTw: '林曉彤',
-    title: 'Head Chef · 主廚',
+    name: 'Sarah Tan',
+    nameMy: 'Head Chef',
+    title: 'Head Chef',
     quote:
-      '「食物是記憶的語言。我用台灣的土地、日本的精準和北歐的極簡，書寫每一道輕食的故事。」',
+      '"Food is the language of memory. I weave Malaysian ingredients, Asian techniques, and Nordic simplicity into every dish we create."',
     detail:
-      '畢業於巴黎藍帶廚藝學院，曾任職米其林一星餐廳於東京與哥本哈根。回台後致力推廣原型食物美學，以在地有機食材為核心。',
+      'Culinary graduate from Le Cordon Bleu Paris, worked in Michelin-starred restaurants across Singapore and Hong Kong. Passionate about celebrating Southeast Asian flavors with modern presentation and organic, locally-sourced ingredients.',
     img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop',
     align: 'right',
     accent: '#C4A882',
@@ -85,7 +85,7 @@ const ChefStory = () => {
                 {a.title}
               </p>
               <h3 className="font-serif text-4xl md:text-5xl text-brand-dark mb-1">{a.name}</h3>
-              <p className="font-sans text-brand-dark/40 text-sm mb-6 tracking-widest">{a.nameTw}</p>
+              <p className="font-sans text-brand-dark/40 text-sm mb-6 tracking-widest">{a.nameMy}</p>
               <blockquote className="font-serif text-lg md:text-xl text-brand-dark/80 italic leading-relaxed mb-6 border-l-2 pl-4" style={{ borderColor: a.accent }}>
                 {a.quote}
               </blockquote>

@@ -6,9 +6,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const hours = [
-  { day: '週一 — 週五', time: '07:30 — 18:00' },
-  { day: '週六 — 週日', time: '08:00 — 19:00' },
-  { day: '國定假日', time: '09:00 — 17:00' },
+  { day: 'Monday — Friday', time: '07:30 — 18:00' },
+  { day: 'Saturday — Sunday', time: '08:00 — 19:00' },
+  { day: 'Public Holiday', time: '09:00 — 17:00' },
 ];
 
 const Location = () => {
@@ -47,7 +47,7 @@ const Location = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-brand-bg/30" />
           {/* Floating label */}
           <div className="absolute bottom-8 left-8">
-            <p className="font-sans text-brand-bg/60 text-xs tracking-widest uppercase mb-1">以太晨光</p>
+            <p className="font-sans text-brand-bg/60 text-xs tracking-widest uppercase mb-1">Kuala Lumpur</p>
             <p className="font-serif text-brand-bg text-2xl">AETHER BREW</p>
           </div>
         </div>
@@ -60,18 +60,18 @@ const Location = () => {
 
           {/* Address */}
           <div className="mb-10 location-reveal">
-            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-3">地址</p>
+            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-3">Address</p>
             <p className="font-serif text-2xl md:text-3xl text-brand-dark leading-relaxed">
-              台北市大安區<br />仁愛路四段 101 巷 18 號
+              Pavilion KL<br />Bukit Bintang, Kuala Lumpur
             </p>
             <p className="font-sans text-brand-dark/50 text-sm mt-2">
-              No. 18, Ln. 101, Sec. 4, Renai Rd, Da'an District
+              Level 3, 168 Jln Bukit Bintang, 50088 KL
             </p>
           </div>
 
           {/* Hours */}
           <div className="mb-10 location-reveal">
-            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-3">營業時間</p>
+            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-3">Opening Hours</p>
             <div className="flex flex-col gap-3">
               {hours.map((h, i) => (
                 <div key={i} className="flex justify-between items-center border-b border-brand-dark/10 pb-3">
@@ -84,20 +84,20 @@ const Location = () => {
 
           {/* Contact */}
           <div className="flex flex-col gap-4 location-reveal">
-            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-1">聯絡我們</p>
+            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-1">Contact</p>
             <a
-              href="tel:+886-2-2700-0101"
+              href="tel:+60-3-2148-2888"
               className="hover-trigger flex items-center gap-3 text-brand-dark/70 hover:text-brand-accent transition-colors group"
             >
               <Icon icon="solar:phone-linear" className="text-brand-accent" />
-              <span className="font-sans text-sm">(02) 2700-0101</span>
+              <span className="font-sans text-sm">(+60 3) 2148-2888</span>
             </a>
             <a
-              href="mailto:hello@aetherbrew.tw"
+              href="mailto:hello@aetherbrew.my"
               className="hover-trigger flex items-center gap-3 text-brand-dark/70 hover:text-brand-accent transition-colors group"
             >
               <Icon icon="solar:letter-linear" className="text-brand-accent" />
-              <span className="font-sans text-sm">hello@aetherbrew.tw</span>
+              <span className="font-sans text-sm">hello@aetherbrew.my</span>
             </a>
             <a
               href="https://instagram.com"
