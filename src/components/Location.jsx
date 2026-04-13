@@ -6,9 +6,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const hours = [
-  { day: 'Monday — Friday', time: '07:30 — 18:00' },
-  { day: 'Saturday — Sunday', time: '08:00 — 19:00' },
-  { day: 'Public Holiday', time: '09:00 — 17:00' },
+  { day: 'Mon — Fri', time: '07:30 — 18:00' },
+  { day: 'Sat — Sun', time: '08:00 — 19:00' },
+  { day: 'Public Holidays', time: '09:00 — 17:00' },
 ];
 
 const Location = () => {
@@ -62,10 +62,10 @@ const Location = () => {
           <div className="mb-10 location-reveal">
             <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-3">Address</p>
             <p className="font-serif text-2xl md:text-3xl text-brand-dark leading-relaxed">
-              Pavilion KL<br />Bukit Bintang, Kuala Lumpur
+              18, Jalan Telawi 3,<br />Bangsar, Kuala Lumpur
             </p>
             <p className="font-sans text-brand-dark/50 text-sm mt-2">
-              Level 3, 168 Jln Bukit Bintang, 50088 KL
+              59100 Kuala Lumpur, Malaysia
             </p>
           </div>
 
@@ -84,13 +84,13 @@ const Location = () => {
 
           {/* Contact */}
           <div className="flex flex-col gap-4 location-reveal">
-            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-1">Contact</p>
+            <p className="font-sans text-brand-dark/40 text-xs tracking-widest uppercase mb-1">Contact Us</p>
             <a
-              href="tel:+60-3-2148-2888"
+              href="tel:+60-3-2282-0101"
               className="hover-trigger flex items-center gap-3 text-brand-dark/70 hover:text-brand-accent transition-colors group"
             >
               <Icon icon="solar:phone-linear" className="text-brand-accent" />
-              <span className="font-sans text-sm">(+60 3) 2148-2888</span>
+              <span className="font-sans text-sm">+60 3-2282 0101</span>
             </a>
             <a
               href="mailto:hello@aetherbrew.my"

@@ -6,25 +6,25 @@ gsap.registerPlugin(ScrollTrigger);
 
 const artisans = [
   {
-    name: 'Marcus Chen',
-    nameMy: 'Head Barista',
-    title: 'Head Barista',
+    name: 'Amir Hakim',
+    nameTw: 'Head Barista',
+    title: 'Head Barista · Coffee Artisan',
     quote:
-      '"Great coffee is not made, it is felt. The warmth of the hand, the rhythm of water, the breath of the bean—when these three merge, it becomes art."',
+      '"A great cup of coffee is never just brewed — it is felt. The warmth of your hands, the rhythm of the water, the breath of the bean — when these three converge, that is art."',
     detail:
-      'Award-winning barista trained in Sydney and Melbourne. Over 12 years of specialty coffee experience, specializing in Nordic-style pour-over and espresso extraction. Based in Kuala Lumpur for the past 5 years.',
+      'Champion of the Malaysia Barista Championship 2022, trained under renowned roasters in Melbourne and Tokyo. With over a decade in specialty coffee, Amir specialises in Nordic pour-over and precision espresso extraction.',
     img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop',
     align: 'left',
     accent: '#D4A373',
   },
   {
-    name: 'Sarah Tan',
-    nameMy: 'Head Chef',
-    title: 'Head Chef',
+    name: 'Siti Nuraini',
+    nameTw: 'Head Chef',
+    title: 'Head Chef · Culinary Director',
     quote:
-      '"Food is the language of memory. I weave Malaysian ingredients, Asian techniques, and Nordic simplicity into every dish we create."',
+      '"Food is the language of memory. I write each dish using Malaysian soul, Japanese precision, and Nordic minimalism — a love letter to this land."',
     detail:
-      'Culinary graduate from Le Cordon Bleu Paris, worked in Michelin-starred restaurants across Singapore and Hong Kong. Passionate about celebrating Southeast Asian flavors with modern presentation and organic, locally-sourced ingredients.',
+      'Graduate of Le Cordon Bleu Paris, formerly at a Michelin-starred restaurant in Singapore and Copenhagen. Back in KL, she champions whole-food aesthetics rooted in local organic produce and bold Southeast Asian flavour.',
     img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=800&auto=format&fit=crop',
     align: 'right',
     accent: '#C4A882',
@@ -85,7 +85,7 @@ const ChefStory = () => {
                 {a.title}
               </p>
               <h3 className="font-serif text-4xl md:text-5xl text-brand-dark mb-1">{a.name}</h3>
-              <p className="font-sans text-brand-dark/40 text-sm mb-6 tracking-widest">{a.nameMy}</p>
+              <p className="font-sans text-brand-dark/40 text-sm mb-6 tracking-widest">{a.nameTw}</p>
               <blockquote className="font-serif text-lg md:text-xl text-brand-dark/80 italic leading-relaxed mb-6 border-l-2 pl-4" style={{ borderColor: a.accent }}>
                 {a.quote}
               </blockquote>

@@ -8,6 +8,7 @@ import Marquee from './components/Marquee';
 import Concept from './components/Concept';
 import FullscreenGallery from './components/FullscreenGallery';
 import MenuHighlights from './components/MenuHighlights';
+import FullMenu from './components/FullMenu';
 import CoffeeOrigins from './components/CoffeeOrigins';
 import SpaceGallery from './components/SpaceGallery';
 import ChefStory from './components/ChefStory';
@@ -45,6 +46,9 @@ function App() {
 
         {/* Existing menu — images fixed */}
         <MenuHighlights />
+
+        {/* Full menu section */}
+        <FullMenu />
 
         {/* New: horizontal scroll bean origins */}
         <CoffeeOrigins />
