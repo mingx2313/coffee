@@ -13,10 +13,10 @@ const IMAGES = [
 ];
 
 const CAPTIONS = [
-  { label: '以太晨光', sub: '台北市大安區 · 開放式空間' },
-  { label: '光線與影子', sub: '每日早晨的魔法時刻' },
-  { label: '職人工作台', sub: '精密校準的沖煮設備' },
-  { label: '靜謐角落', sub: '為你留存的一方天地' },
+  { label: '以太晨光', sub: '吉隆坡邦萨区 · 开放式空间' },
+  { label: '光线与影子', sub: '每日早晨的魔法时刻' },
+  { label: '职人工作台', sub: '精密校准的冲煮设备' },
+  { label: '静谧角落', sub: '为你留存的一方天地' },
 ];
 
 const SpaceGallery = () => {

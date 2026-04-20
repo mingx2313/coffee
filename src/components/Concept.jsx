@@ -53,12 +53,12 @@ const Concept = () => {
               Artisanal Flow & <br /> Aesthetic Living.
             </h2>
             <p className="font-sans text-brand-dark/70 leading-relaxed mb-8 gs-reveal">
-              以太晨光將早午餐昇華為一場感官儀式。我們嚴選在地有機食材與世界級精品莊園豆，每一杯職人手沖、每一份原型輕食，皆是我們對「靜謐慢活美學」的極致演繹。在這裡，時間將隨咖啡香氣緩慢流動。
+              以太晨光将早午餐升华为一场感官仪式。我们严选在地有机食材与世界级精品庄园豆，每一杯职人手冲、每一份原型轻食，皆是我们对「静谧慢活美学」的极致演绎。在这里，时间将随咖啡香气缓慢流动。
             </p>
             <ul className="flex flex-col gap-4 font-serif text-xl gs-reveal">
-              <li className="flex items-center gap-3"><Icon icon="solar:star-fall-minimalistic-linear" className="text-brand-accent" /> 職人手沖藝術 (Artisanal Coffee)</li>
-              <li className="flex items-center gap-3"><Icon icon="solar:leaf-linear" className="text-brand-accent" /> 原型健康輕食 (Organic Ingredients)</li>
-              <li className="flex items-center gap-3"><Icon icon="solar:cup-hot-linear" className="text-brand-accent" /> 靜謐慢活美學 (Aesthetic Living)</li>
+              <li className="flex items-center gap-3"><Icon icon="solar:star-fall-minimalistic-linear" className="text-brand-accent" /> 职人手冲艺术 (Artisanal Coffee)</li>
+              <li className="flex items-center gap-3"><Icon icon="solar:leaf-linear" className="text-brand-accent" /> 原型健康轻食 (Organic Ingredients)</li>
+              <li className="flex items-center gap-3"><Icon icon="solar:cup-hot-linear" className="text-brand-accent" /> 静谧慢活美学 (Aesthetic Living)</li>
             </ul>
           </div>
           

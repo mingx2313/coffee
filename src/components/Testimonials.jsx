@@ -3,14 +3,14 @@ import { gsap } from 'gsap';
 
 const quotes = [
   {
-    text: '「以太晨光重新定義了台北的早午餐文化。那杯耶加雪菲手沖，是我今年喝過最接近詩的一杯咖啡。」',
+    text: '「以太晨光重新定义了吉隆坡的早午餐文化。那杯耶加雪菲手冲，是我今年喝过最接近诗的一杯咖啡。」',
     author: 'Sophie Chen',
-    source: 'VOGUE Taiwan',
+    source: 'VOGUE Malaysia',
   },
   {
-    text: '「空間、光線、食物與音樂——四者在此完美交融。這不只是一間咖啡廳，這是一個情緒的避難所。」',
+    text: '「空间、光线、食物与音乐——四者在此完美交融。这不只是一间咖啡厅，这是一个情绪的避难所。」',
     author: 'Marcus Wei',
-    source: 'GQ Taiwan',
+    source: 'GQ Malaysia',
   },
   {
     text: '"AETHER BREW stands as one of Asia\'s most thoughtfully designed cafe experiences. Each detail whispers of intention."',
@@ -18,8 +18,8 @@ const quotes = [
     source: 'Monocle Magazine',
   },
   {
-    text: '「每次走進以太晨光，我都感覺時間慢了下來。這種感覺，是任何藥方都無法複製的。」',
-    author: '陳小姐',
+    text: '「每次走进以太晨光，我都感觉时间慢了下来。这种感觉，是任何药方都无法复制的。」',
+    author: '陈小姐',
     source: 'Google Reviews · ★★★★★',
   },
 ];
